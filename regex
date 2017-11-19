@@ -18,5 +18,10 @@
 
 消除循环的方法 ："opening normal* (special normal*)* closing"
 
+顺序环视结构中可以使用任意正则表达式， 但是逆序环视中的自表达式只能匹配长度有限的文本（? 可以，*, + 不可以）
 
+Unicode 属性， 通过\p{Lu}之类的缩写名字来引用。
 
+通常情况下，$ 和 \Z 通常会匹配行终结符（通常是 LF 换行符，多行模式下除外）之前的位置
+
+Java StringBuilder 不能保证多线程安全， StringBuffer 可以
