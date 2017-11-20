@@ -25,3 +25,5 @@ Unicode 属性， 通过\p{Lu}之类的缩写名字来引用。
 通常情况下，$ 和 \Z 通常会匹配行终结符（通常是 LF 换行符，多行模式下除外）之前的位置
 
 Java StringBuilder 不能保证多线程安全， StringBuffer 可以
+
+Java Pattern.compile().split(string regex, string text);
