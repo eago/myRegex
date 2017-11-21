@@ -27,3 +27,5 @@ Unicode 属性， 通过\p{Lu}之类的缩写名字来引用。
 Java StringBuilder 不能保证多线程安全， StringBuffer 可以
 
 Java Pattern.compile().split(string regex, string text);
+
+所有的图像都必须有 size (width, height) 属性 （浏览器在显示图像之前必须读入整个文件，如果包含了宽度和高度的尺寸，文本和其他元素就可以立即正确摆放， 这样用户会感觉页面读取速度更快 ）
